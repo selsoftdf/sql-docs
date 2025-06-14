@@ -365,7 +365,7 @@ GO
 
 ### B. Use OUTPUT with a DELETE statement
 
-The following example deletes all rows in the `ShoppingCartItem` table. The clause `OUTPUT DELETED.*` specifies that the results of the `DELETE` statement, that is, all columns in the deleted rows, are returned to the calling application. The `SELECT` statement that follows verifies the results of the delete operation on the `ShoppingCartItem` table.
+The following example deletes all rows from the ShoppingCartItem table that match a specific condition. The clause `OUTPUT DELETED.*` specifies that the results of the `DELETE` statement, that is, all columns in the deleted rows, are returned to the calling application. The `SELECT` statement that follows verifies the results of the delete operation on the `ShoppingCartItem` table.
 
 ```sql
 USE AdventureWorks2022;
